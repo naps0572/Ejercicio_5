@@ -4,39 +4,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 5</title>
+    <style>
+        body {
+            background-color: #f9f9f9;
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1 {
+            text-align: center;
+            color: #444;
+            margin-bottom: 20px;
+        }
+        .restaurant-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            max-width: 800px;
+            width: 100%;
+        }
+        .restaurant-container img {
+            width: 100%;
+            border-radius: 8px;
+            margin-top: 10px;
+            object-fit: cover;
+        }
+        h2 {
+            font-size: 22px;
+            color: #1a1a1a;
+            margin-top: 0;
+        }
+        p {
+            font-size: 16px;
+            margin: 5px 0;
+        }
+        strong {
+            color: #555;
+        }
+    </style>
 </head>
 <body>
-    <div>Restaurantes</div>
+    <h1>Restaurantes</h1>
 
-    <div>
+    <div class="restaurant-container">
         <h2>Noma</h2>
         <p><strong>Ubicación:</strong> Copenhague, Dinamarca</p>
         <p><strong>Descripción:</strong> Meca gastronómica del chef René Redzepi que ofrece menús de 20 platos de primera categoría.</p>
         <img src="https://lh3.googleusercontent.com/p/AF1QipNXqk_YLhQoHJrL2D3_RIvKQEhwT6X1uqOFi0g=s680-w680-h510" alt="Noma">
     </div>
 
-    <div>
+    <div class="restaurant-container">
         <h2>El Celler de Can Roca</h2>
         <p><strong>Ubicación:</strong> Girona, España</p>
         <p><strong>Descripción:</strong> Restaurante dirigido por los hermanos Roca, conocido por su cocina creativa y técnica, con menús que destacan la innovación en la alta gastronomía.</p>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgJG8J1e-kxYBmJOJf2UMytunABns7WEfmTw&s">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgJG8J1e-kxYBmJOJf2UMytunABns7WEfmTw&s" alt="El Celler de Can Roca">
     </div>
 
-    <div>
+    <div class="restaurant-container">
         <h2>Osteria Francescana</h2>
         <p><strong>Ubicación:</strong> Módena, Italia</p>
         <p><strong>Descripción:</strong> Ofrece una mezcla de alta cocina italiana moderna, dirigida por el chef Massimo Bottura, con platos que desafían la tradición y celebran la innovación.</p>
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQt-p4AgAZdr-yHUQHBvVXz6GG0OKaKkla8fA&s" alt="Osteria Francescana">
     </div>
 
-    <div>
+    <div class="restaurant-container">
         <h2>Le Bernardin</h2>
         <p><strong>Ubicación:</strong> Nueva York, EE.UU.</p>
         <p><strong>Descripción:</strong> Especializado en mariscos y cocina francesa, con una reputación internacional en alta gastronomía, dirigido por el chef Éric Ripert.</p>
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz6hGjGgvldhUoPsqBXmprBXnjCa2zKVPaMg&s" alt="Le Bernardin">
     </div>
 
-    <div>
+    <div class="restaurant-container">
         <h2>Sukiyabashi Jiro</h2>
         <p><strong>Ubicación:</strong> Tokio, Japón</p>
         <p><strong>Descripción:</strong> Renombrado por su sushi de alta calidad, dirigido por Jiro Ono, conocido por su maestría en la preparación de sushi.</p>
@@ -45,3 +89,4 @@
 
 </body>
 </html>
+
